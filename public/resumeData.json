@@ -5,14 +5,14 @@
         "occupation": "biomedical engineer",
         "description": "a writer, a photographer, and a climber.",
         "image": "profilepic.jpg",
-        "bio": "I plan to graduate from UC Davis in June of 2021 with a B.S. in biomedical engineering and a minor in English. I'm interested in applying my unique academic background and my past internship experiences to expand my technical writing and project management skills.",
+        "bio": "I plan to graduate from UC Davis in September of 2021 with a double major in biomedical engineering (B.S.) and English (B.A.). I'm interested in applying my technical writing experience and my engineering background to expand my writing and project management skills.",
         "listIntro": "But there's more to me than my resume. You might be interested to know that:",
         "bioList": [
             "My favorite podcast is called 'No Such Thing As A Fish.'",
             "One of my personal goals is to complete a wintertime summit of Mount Shasta.",
             "Another goal is to run a marathon.",
             "If I had to choose my favorite book, I'd pick Ian McEwan's 'Atonement.'",
-            "The worst book I've ever read is 'The Catcher in the Rye.' Change my mind!"
+            "My least favorite book is 'The Catcher in the Rye.' Change my mind!"
         ],
         "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
         "email": "jacmoore@ucdavis.edu",
@@ -20,7 +20,7 @@
         "address":
         {
             
-            "city": "Palo Alto",
+            "city": "San Francisco",
             "state": "California"
             
         },
@@ -48,11 +48,6 @@
             "name": "twitter",
             "url": "https://twitter.com/jackymmoore",
             "className": "fa fa-twitter"
-        },
-    {
-            "name": "flask",
-            "url": "https://bigucd.com/jacqueline-moore",
-            "className": "fa fa-flask"
         }]
     },
 
@@ -62,24 +57,29 @@
         "education": [
         {
             "school": "University of California, Davis",
-            "degree": ["Biomedical Engineering (B.S.), Minor in English"],
-            "graduated": "September 2017 - June 2021",
-            "description": "College of Engineering Dean's List, College of Letters and Science Dean's List."
+            "degree": ["Biomedical Engineering (B.S.)", "English (B.A.)"],
+            "graduated": "September 2017 - September 2021",
+            "description": "Specialization in Literature, Criticism, and Theory"
         }
         ],
         "work": [
+        {
+            "company": "Study.com",
+            "title": "Research Assistant",
+            "years": "June 2021 - July 2021",
+            "description": "Informed product direction in collaboration with research, UX, and product teams to validate new product strategies and designs."
+        },
+        {
+            "company": "InnovationAccess, UC Davis Office of Research",
+            "title": "Technology Transfer Intern",
+            "years": "January 2021 - March 2021",
+            "description": "Conducted prior art searches for prospective patent applications. Composed freedom to operate analyses and non-confidential descriptions."
+        },
         {
             "company": "Salesforce",
             "title": "Technical Writing Intern",
             "years": "June 2020 - September 2020",
             "description": "Authored the script for a user help video about a beta feature of Einstein Analytics. Updated technical docs about SAQL tools for developers using Oxygen and Perforce. Drafted a release note about an update to the Einstein Analytics data filtering tool."
-
-        },
-        {
-            "company": "AT&T",
-            "title": "Summer Learning Academy Extern",
-            "years": "June 2020 – July 2020",
-            "description": "Advanced project management and business communications skills through weekly workshops, quizzes, and speaker events."
         },
         {
           "company": "Salesforce",
@@ -97,8 +97,8 @@
          {
           "company": "BioInnovation Group",
             "title": "Project Manager, Microfluidics",
-            "years": "September 2019 - Present",
-            "description": "Co-leading a 10-person research team in constructing two cost-efficient microfluidic controllers for RNA sequencing. Also collaborating with teammates to design and build microfluidic chips using AutoCAD and UV exposure systems (for low-cost photolithography)."
+            "years": "September 2019 - March 2021",
+            "description": "Co-led a 10-person research team in constructing two cost-efficient microfluidic controllers for RNA sequencing. Also collaborated with teammates to design and build microfluidic chips using AutoCAD and UV exposure systems (for low-cost photolithography)."
          },
          {
           "company": "BioInnovation Group",
@@ -109,7 +109,7 @@
          {
             "company": "The California Aggie",
             "title": "Copy Editor",
-            "years": "November 2017 2018 – February 2020",
+            "years": "November 2017 – February 2020",
             "description": "Proofread copy — roughly 25 articles per week — using The Aggie's variation of the AP Style Guide. Previously served the paper as a campus news reporter, which involved composing one article per week and conducting relevant, in-person interviews."
         }
         ],
