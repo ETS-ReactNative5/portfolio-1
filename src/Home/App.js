@@ -6,7 +6,6 @@ import Footer from '../Components/Footer';
 import About from '../Components/About';
 import Resume from '../Components/Resume';
 import Portfolio from '../Components/Portfolio';
-//import {ImageGallery} from "../Components/ImageGallery";
 
 export class App extends Component {
 
@@ -50,7 +49,6 @@ export class App extends Component {
                             <Portfolio title={"UX Design"} data={this.state.resumeData.portfolio.designs}/>
                         </div>
                     : null }
-                    {/*<ImageGallery/>*/}
                 </section>
                 <About data={this.state.resumeData.main}/>
 

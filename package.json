@@ -3,12 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "jquery": "^3.5.1",
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2",
-    "react-images": "^0.5.19",
-    "react-photo-gallery": "^6.3.4",
-    "react-scripts": "^2.1.8"
+    "jquery": "^3.6.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "deploy": "npm run build && aws s3 sync build/ s3://jackymoore.com --delete && echo '🚀  Deployed!'",

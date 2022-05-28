@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import {isNullOrUndefined} from "util";
 // import resumeURL from "../assets/Jacqueline Moore Resume.pdf"
 
 class About extends Component {
@@ -28,7 +27,7 @@ class About extends Component {
                         <p>{bio}</p>
                         <p>{listIntro}</p>
                         <ol>
-                                {!isNullOrUndefined(bioList)
+                                {bioList
                                     ? bioList.map(item => <li key={item}>{item}</li>)
                                     : null}
                         </ol>

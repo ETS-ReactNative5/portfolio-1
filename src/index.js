@@ -5,9 +5,12 @@ import registerServiceWorker from './registerServiceWorker';
 import {App} from "./Home/App";
 import {Navigator} from "./Infrastructure/Navigator";
 
-ReactDOM.render(
+const container = document.getElementById('root');
+const root = ReactDOM.createRoot(container);
+
+root.render(
 	<div>
 		<Navigator/>
 		<App/>
-	</div>, document.getElementById('root'));
+	</div>);
 registerServiceWorker();

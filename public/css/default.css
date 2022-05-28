@@ -87,7 +87,7 @@ pre {
    word-wrap: break-word;
 }
 
-blockquote, q { quotes: &#8220 &#8220; }
+blockquote, q { quotes: "\201C" "\201D"; }
 
 blockquote:before, blockquote:after,
 q:before, q:after {
@@ -453,10 +453,6 @@ img {
 }
 img.pull-right { margin: 12px 0px 0px 18px; }
 img.pull-left { margin: 12px 18px 0px 0px; }
-
-#image-gallery img {
-    height: 100%;
-}
 
 /*  6. Buttons  --------------------------------------------------------- */
 
